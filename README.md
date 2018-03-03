@@ -330,5 +330,5 @@ on Frontier, and is only here to give you an idea of what's currently available 
 --------------------------------------------------------------------------------------------------------------------------------
 Version History
 --------------------------------------------------------------------------------------------------------------------------------
-v1.0 - Initial release
-v1.0.0.1 - Fixed file sorting issue when accessing .binds files.
+* v1.0 - Initial release
+* v1.0.0.1 - Fixed file sorting issue when accessing .binds files.
