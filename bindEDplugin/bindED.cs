@@ -65,7 +65,7 @@ namespace bindEDplugin
             }
             catch (Exception ex)
             {
-                vaProxy.WriteToLog($"bindED Error - {ex.Message}", "red");
+                vaProxy.WriteToLog($"bindED Error reading EDMap.txt - {ex.Message}", "red");
                 return;
             }
 
@@ -109,7 +109,7 @@ namespace bindEDplugin
                 }
                 catch (Exception ex)
                 {
-                    vaProxy.WriteToLog($"bindED Error - {ex.Message}", "red");
+                    vaProxy.WriteToLog($"bindED Error reading via link - {ex.Message}", "red");
                     return;
                 }
             }
@@ -127,7 +127,7 @@ namespace bindEDplugin
                         }
                         catch (Exception ex)
                         {
-                            vaProxy.WriteToLog($"bindED Error - {ex.Message}", "red");
+                            vaProxy.WriteToLog($"bindED Error - failed to load file {file} - {ex.Message}", "red");
                             return;
                         }
 
@@ -184,7 +184,7 @@ namespace bindEDplugin
             }
             catch (Exception ex)
             {
-                vaProxy.WriteToLog($"bindED Error - {ex.Message}", "red");
+                vaProxy.WriteToLog($"bindED Error parsing keybinds- {ex.Message}", "red");
             }
         }
 
